@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  # database:
+  #     image: mongo
+  #     volumes:
+  #       - ~/Mongo/django:/data/db
+  #     ports:
+  #       - "27017:27017"
+  #     links:
+  #       - django
+
+  django:
+      build: ./django
+      volumes:
+        - ./django:/usr/src/app
+      ports:
+        - "80:8000"
