@@ -126,3 +126,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 LOGIN_URL = '/admin/login/'
+
+
+REST_FRAMEWORK =  {
+    'DEFAULT_PERMISSION_CLASSES': ()
+}
