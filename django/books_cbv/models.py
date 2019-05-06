@@ -4,6 +4,7 @@ from django.urls import reverse
 
 class Book(models.Model):
     name = models.CharField(max_length=200)
+    author = models.CharField(max_length=200, null=True)
     pages = models.IntegerField()
 
     def __str__(self):
