@@ -41,3 +41,19 @@ need to create a user to test it, you can create a user using the following comm
 
 To create a normal user (non super user), you must login to the admin page and
 create it: <http://localhost:8000/admin/>
+
+
+### Installation
+
+```bash
+# REQUIRED
+pip install django
+pip install djangorestframework
+```
+
+
+** Echo requirements to requirements.txt to save dependencies **  
+
+```bash
+pip freeze > requirements.txt
+```
