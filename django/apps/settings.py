@@ -128,6 +128,8 @@ STATIC_URL = '/static/'
 LOGIN_URL = '/admin/login/'
 
 
-REST_FRAMEWORK =  {
-    'DEFAULT_PERMISSION_CLASSES': ()
-}
+# REST_FRAMEWORK =  {
+#     'DEFAULT_PERMISSION_CLASSES': (
+#         'rest_framework.permisions.IsAuthenticatedOrReadOnly',
+#     )
+# }
